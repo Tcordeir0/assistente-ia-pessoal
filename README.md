@@ -1,40 +1,94 @@
-# Assistente Pessoal IA
+# 🤖 Assistente IA Pessoal
 
-Uma assistente pessoal inteligente que aprende e se adapta às suas preferências, desenvolvida em Python com interface gráfica moderna.
+Um assistente pessoal inteligente desenvolvido em Python que aprende com suas interações, oferecendo uma experiência personalizada através de uma interface gráfica moderna e recursos de voz.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Interface gráfica moderna e intuitiva
-- Processamento de linguagem natural em português
-- Aprendizado contínuo baseado nas interações
-- Histórico de conversas
-- Síntese e reconhecimento de voz
-- Personalização de preferências
+- 🎯 **Interface Moderna**
+  - Design limpo e intuitivo usando CustomTkinter
+  - Modo escuro por padrão
+  - Interface responsiva e amigável
 
-## Requisitos
+- 🧠 **Inteligência Artificial**
+  - Processamento de linguagem natural em português
+  - Integração com OpenAI GPT
+  - Aprendizado contínuo baseado nas interações
+  - Personalização através do perfil do usuário
 
-- Python 3.8 ou superior
-- Dependências listadas em requirements.txt
+- 🗣️ **Recursos de Voz**
+  - Reconhecimento de voz em português do Brasil
+  - Síntese de voz para respostas
+  - Ajuste automático para ruído ambiente
+  - Funciona mesmo sem microfone (modo texto)
 
-## Instalação
+- 💾 **Persistência de Dados**
+  - Armazenamento local usando SQLite
+  - Histórico de conversas
+  - Perfil de usuário personalizável
+  - Preferências salvas automaticamente
 
-1. Clone este repositório
-2. Instale as dependências:
+## 🚀 Instalação
+
+1. **Clone o repositório**
+```bash
+git clone https://github.com/Tcordeir0/assistente-ia-pessoal.git
+cd assistente-ia-pessoal
 ```
+
+2. **Instale as dependências**
+```bash
 pip install -r requirements.txt
 ```
-3. Crie um arquivo .env na raiz do projeto com sua chave API do OpenAI:
-```
-OPENAI_API_KEY=sua_chave_aqui
-```
-4. Execute o programa:
-```
+
+3. **Configure sua chave API**
+- Crie uma conta na [OpenAI](https://platform.openai.com/)
+- Gere uma chave API em https://platform.openai.com/api-keys
+- Copie o arquivo `.env.example` para `.env`
+- Adicione sua chave API no arquivo `.env`
+
+## 💻 Como Usar
+
+1. **Inicie o programa**
+```bash
 python main.py
 ```
 
-## Uso
-
-- Inicie o programa e interaja através da interface gráfica
+2. **Interaja com o assistente**
+- Digite suas mensagens na caixa de texto
 - Use o botão de microfone para entrada por voz
-- Suas preferências serão salvas automaticamente
-- O assistente aprenderá com suas interações ao longo do tempo
+- Pressione Enter ou clique em Enviar
+
+3. **Personalize sua experiência**
+- O assistente aprende com suas interações
+- Suas preferências são salvas automaticamente
+- O histórico de conversas é mantido localmente
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.8+**: Linguagem de programação principal
+- **CustomTkinter**: Framework para interface gráfica moderna
+- **OpenAI GPT**: Motor de processamento de linguagem natural
+- **SQLite**: Banco de dados local para persistência
+- **SpeechRecognition**: Reconhecimento de voz
+- **pyttsx3**: Síntese de voz
+
+## 📝 Requisitos do Sistema
+
+- Python 3.8 ou superior
+- Conexão com internet (para API do OpenAI)
+- Microfone (opcional, para recursos de voz)
+- Windows 11 (testado)
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para:
+- Reportar bugs
+- Sugerir novas funcionalidades
+- Enviar pull requests
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+Desenvolvido com 💜 por [Tcordeir0](https://github.com/Tcordeir0)
