@@ -35,12 +35,23 @@ git clone https://github.com/Tcordeir0/assistente-ia-pessoal.git
 cd assistente-ia-pessoal
 ```
 
-2. **Instale as dependências**
+2. **Obtenha sua chave API da OpenAI:**
+   - Acesse [OpenAI API Keys](https://platform.openai.com/api-keys)
+   - Faça login ou crie uma conta
+   - Clique em "Create new secret key"
+   - Copie a chave gerada (guarde em local seguro, você não poderá vê-la novamente)
+
+3. **Configure o arquivo de ambiente:**
+   - Copie o arquivo `.env.example` para `.env`
+   - Abra o arquivo `.env`
+   - Substitua `sua_chave_aqui` pela sua chave API da OpenAI
+
+4. **Instale as dependências**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Configure sua chave API**
+5. **Configure sua chave API**
 - Crie uma conta na [OpenAI](https://platform.openai.com/)
 - Gere uma chave API em https://platform.openai.com/api-keys
 - Copie o arquivo `.env.example` para `.env`
